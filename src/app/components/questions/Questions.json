@@ -1,0 +1,1833 @@
+[
+  {
+    "geografia": [
+      {
+        "pregunta": "¿Cuál es el río más largo del mundo?",
+        "numeroPregunta": 1,
+        "dificultad": "Facil",
+        "tematica": "Geografía",
+        "opciones": {
+          "opcion1": "Amazonas",
+          "opcion2": "Nilo",
+          "opcion3": "Misisipi",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es la montaña más alta del mundo?",
+        "numeroPregunta": 2,
+        "dificultad": "Facil",
+        "tematica": "Geografía",
+        "opciones": {
+          "opcion1": "Monte Everest",
+          "opcion2": "Monte Kilimanjaro",
+          "opcion3": "Monte McKinley",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es el océano más grande del mundo?",
+        "numeroPregunta": 3,
+        "dificultad": "Facil",
+        "tematica": "Geografía",
+        "opciones": {
+          "opcion1": "Océano Pacífico",
+          "opcion2": "Océano Atlántico",
+          "opcion3": "Océano Índico",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es el desierto más grande del mundo?",
+        "numeroPregunta": 4,
+        "dificultad": "Facil",
+        "tematica": "Geografía",
+        "opciones": {
+          "opcion1": "Desierto del Sahara",
+          "opcion2": "Desierto de Atacama",
+          "opcion3": "Desierto de Gobi",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿En qué país se encuentra la Torre Eiffel?",
+        "numeroPregunta": 5,
+        "dificultad": "Facil",
+        "tematica": "Geografía",
+        "opciones": {
+          "opcion1": "Francia",
+          "opcion2": "Italia",
+          "opcion3": "España",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es la capital de Rusia?",
+        "numeroPregunta": 6,
+        "dificultad": "Facil",
+        "tematica": "Geografía",
+        "opciones": {
+          "opcion1": "Moscú",
+          "opcion2": "San Petersburgo",
+          "opcion3": "Kiev",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es el río más largo de América del Sur?",
+        "numeroPregunta": 7,
+        "dificultad": "Facil",
+        "tematica": "Geografía",
+        "opciones": {
+          "opcion1": "Amazonas",
+          "opcion2": "Río de la Plata",
+          "opcion3": "Orinoco",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué país es conocido como la 'Tierra del Sol Naciente'?",
+        "numeroPregunta": 8,
+        "dificultad": "Facil",
+        "tematica": "Geografía",
+        "opciones": {
+          "opcion1": "Japón",
+          "opcion2": "China",
+          "opcion3": "Corea del Sur",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es la capital de Italia?",
+        "numeroPregunta": 9,
+        "dificultad": "Facil",
+        "tematica": "Geografía",
+        "opciones": {
+          "opcion1": "Roma",
+          "opcion2": "Milán",
+          "opcion3": "Florencia",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué país es conocido como la 'Tierra de los Faraones'?",
+        "numeroPregunta": 10,
+        "dificultad": "Facil",
+        "tematica": "Geografía",
+        "opciones": {
+          "opcion1": "Egipto",
+          "opcion2": "Irak",
+          "opcion3": "Arabia Saudita",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es el río más largo de Europa?",
+        "numeroPregunta": 11,
+        "dificultad": "Facil",
+        "tematica": "Geografía",
+        "opciones": {
+          "opcion1": "Volga",
+          "opcion2": "Danubio",
+          "opcion3": "Ródano",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es la capital de Canadá?",
+        "numeroPregunta": 12,
+        "dificultad": "Dificil",
+        "tematica": "Geografía",
+        "opciones": {
+          "opcion1": "Ottawa",
+          "opcion2": "Toronto",
+          "opcion3": "Montreal",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es el país más pequeño del mundo?",
+        "numeroPregunta": 13,
+        "dificultad": "Facil",
+        "tematica": "Geografía",
+        "opciones": {
+          "opcion1": "Ciudad del Vaticano",
+          "opcion2": "Mónaco",
+          "opcion3": "San Marino",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es la capital de Sudáfrica?",
+        "numeroPregunta": 14,
+        "dificultad": "Facil",
+        "tematica": "Geografía",
+        "opciones": {
+          "opcion1": "Pretoria",
+          "opcion2": "Ciudad del Cabo",
+          "opcion3": "Johannesburgo",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es la capital de Noruega?",
+        "numeroPregunta": 15,
+        "dificultad": "Facil",
+        "tematica": "Geografía",
+        "opciones": {
+          "opcion1": "Oslo",
+          "opcion2": "Estocolmo",
+          "opcion3": "Copenhague",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es la capital de Suecia?",
+        "numeroPregunta": 16,
+        "dificultad": "Facil",
+        "tematica": "Geografía",
+        "opciones": {
+          "opcion1": "Estocolmo",
+          "opcion2": "Oslo",
+          "opcion3": "Copenhague",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es la capital de Nueva Zelanda?",
+        "numeroPregunta": 17,
+        "dificultad": "Facil",
+        "tematica": "Geografía",
+        "opciones": {
+          "opcion1": "Wellington",
+          "opcion2": "Auckland",
+          "opcion3": "Christchurch",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es el volcán más alto del mundo?",
+        "numeroPregunta": 18,
+        "dificultad": "Media",
+        "tematica": "Geografía",
+        "opciones": {
+          "opcion1": "Ojos del Salado",
+          "opcion2": "Monte Kilimanjaro",
+          "opcion3": "Monte Fuji",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿En qué país se encuentra la ciudad de Petra?",
+        "numeroPregunta": 19,
+        "dificultad": "Media",
+        "tematica": "Geografía",
+        "opciones": {
+          "opcion1": "Jordania",
+          "opcion2": "Egipto",
+          "opcion3": "Israel",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es la capital de Australia?",
+        "numeroPregunta": 20,
+        "dificultad": "Media",
+        "tematica": "Geografía",
+        "opciones": {
+          "opcion1": "Canberra",
+          "opcion2": "Sídney",
+          "opcion3": "Melbourne",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es la capital de Argentina?",
+        "numeroPregunta": 21,
+        "dificultad": "Media",
+        "tematica": ["Geografía", "Cultura General Argentina"],
+        "opciones": {
+          "opcion1": "Buenos Aires",
+          "opcion2": "Córdoba",
+          "opcion3": "Rosario",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es el lago más profundo del mundo?",
+        "numeroPregunta": 22,
+        "dificultad": "Media",
+        "tematica": "Geografía",
+        "opciones": {
+          "opcion1": "Lago Baikal",
+          "opcion2": "Lago Titicaca",
+          "opcion3": "Lago Victoria",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es la capital de Perú?",
+        "numeroPregunta": 23,
+        "dificultad": "Media",
+        "tematica": "Geografía",
+        "opciones": {
+          "opcion1": "Lima",
+          "opcion2": "Cusco",
+          "opcion3": "Arequipa",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es la capital de Colombia?",
+        "numeroPregunta": 24,
+        "dificultad": "Media",
+        "tematica": "Geografía",
+        "opciones": {
+          "opcion1": "Bogotá",
+          "opcion2": "Medellín",
+          "opcion3": "Cali",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es el río más largo de Asia?",
+        "numeroPregunta": 25,
+        "dificultad": "Media",
+        "tematica": "Geografía",
+        "opciones": {
+          "opcion1": "Río Yangtsé",
+          "opcion2": "Río Ganges",
+          "opcion3": "Río Mekong",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es la capital de Marruecos?",
+        "numeroPregunta": 26,
+        "dificultad": "Media",
+        "tematica": "Geografía",
+        "opciones": {
+          "opcion1": "Rabat",
+          "opcion2": "Casablanca",
+          "opcion3": "Marrakech",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es el río más largo de África?",
+        "numeroPregunta": 27,
+        "dificultad": "Media",
+        "tematica": "Geografía",
+        "opciones": {
+          "opcion1": "Nilo",
+          "opcion2": "Congo",
+          "opcion3": "Zambeze",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es la capital de Corea del Sur?",
+        "numeroPregunta": 28,
+        "dificultad": "Media",
+        "tematica": "Geografía",
+        "opciones": {
+          "opcion1": "Seúl",
+          "opcion2": "Busan",
+          "opcion3": "Incheon",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es el río más largo de América del Norte?",
+        "numeroPregunta": 29,
+        "dificultad": "Media",
+        "tematica": "Geografía",
+        "opciones": {
+          "opcion1": "Mississippi",
+          "opcion2": "Mackenzie",
+          "opcion3": "Yukón",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué montaña es la más alta de Argentina?",
+        "tematica": ["Geografía", "Cultura General Argentina"],
+        "numeroPregunta": 30,
+        "dificultad": "Media",
+        "opciones": {
+          "opcion1": "Aconcagua",
+          "opcion2": "Fitz Roy",
+          "opcion3": "Cerro Torre",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es el río más ancho de Argentina?",
+        "tematica": ["Geografía", "Cultura General Argentina"],
+        "numeroPregunta": 31,
+        "dificultad": "Media",
+        "opciones": {
+          "opcion1": "Río Paraná",
+          "opcion2": "Río Uruguay",
+          "opcion3": "Río de la Plata",
+          "correcta": "opcion3"
+        }
+      },
+      {
+        "pregunta": "¿Qué provincia argentina es conocida como 'La tierra de sol y vino'?",
+        "tematica": ["Geografía", "Cultura General Argentina"],
+        "numeroPregunta": 32,
+        "dificultad": "Facil",
+        "opciones": {
+          "opcion1": "Mendoza",
+          "opcion2": "Salta",
+          "opcion3": "Córdoba",
+          "correcta": "opcion1"
+        }
+      }
+    ],
+    "matematicas": [
+      {
+        "pregunta": "¿Cuál es el teorema que establece la relación entre los lados de un triángulo rectángulo y sus ángulos?",
+        "numeroPregunta": 1,
+        "tematica": "Matemáticas",
+        "dificultad": "Media",
+        "opciones": {
+          "opcion1": "Teorema de Pitágoras",
+          "opcion2": "Teorema de Tales",
+          "opcion3": "Teorema de Euclides",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué matemático formuló los fundamentos de la lógica y la teoría de conjuntos?",
+        "numeroPregunta": 2,
+        "tematica": "Matemáticas",
+        "dificultad": "Dificil",
+        "opciones": {
+          "opcion1": "Georg Cantor",
+          "opcion2": "Bertrand Russell",
+          "opcion3": "Kurt Gödel",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué matemático formuló el teorema que lleva su nombre, relacionado con los triángulos rectángulos?",
+        "numeroPregunta": 3,
+        "tematica": "Matemáticas",
+        "dificultad": "Media",
+        "opciones": {
+          "opcion1": "Pitágoras",
+          "opcion2": "Euclides",
+          "opcion3": "Arquímedes",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué matemático es conocido por su teorema sobre la incompletitud de los sistemas formales?",
+        "numeroPregunta": 4,
+        "tematica": "Matemáticas",
+        "dificultad": "Dificil",
+        "opciones": {
+          "opcion1": "Kurt Gödel",
+          "opcion2": "Georg Cantor",
+          "opcion3": "David Hilbert",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué matemático es conocido por su teorema sobre la suma de los ángulos de un triángulo?",
+        "numeroPregunta": 5,
+        "tematica": "Matemáticas",
+        "dificultad": "Facil",
+        "opciones": {
+          "opcion1": "Euclides",
+          "opcion2": "Pitágoras",
+          "opcion3": "Arquímedes",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué matemático es conocido por su teorema sobre la cuadratura del círculo?",
+        "numeroPregunta": 6,
+        "tematica": "Matemáticas",
+        "dificultad": "Dificil",
+        "opciones": {
+          "opcion1": "Carl Friedrich Gauss",
+          "opcion2": "Leonhard Euler",
+          "opcion3": "Antoine de Fermat",
+          "correcta": "opcion3"
+        }
+      },
+
+      {
+        "pregunta": "¿Qué matemático es conocido por su teorema de la incompletitud?",
+        "numeroPregunta": 7,
+        "tematica": "Matemáticas",
+        "dificultad": "Dificil",
+        "opciones": {
+          "opcion1": "Kurt Gödel",
+          "opcion2": "Georg Cantor",
+          "opcion3": "Blaise Pascal",
+          "correcta": "opcion1"
+        }
+      },
+
+      {
+        "pregunta": "¿Qué matemático es conocido por su teorema de la geometría no euclidiana?",
+        "numeroPregunta": 8,
+        "dificultad": "Dificil",
+        "tematica": "Matemáticas",
+        "opciones": {
+          "opcion1": "Bernhard Riemann",
+          "opcion2": "Euclides",
+          "opcion3": "Leonhard Euler",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es el resultado de la operación 10 ÷ 2 + 5?",
+        "numeroPregunta": 9,
+        "tematica": "Matemáticas",
+        "dificultad": "Facil",
+        "opciones": {
+          "opcion1": "7",
+          "opcion2": "10",
+          "opcion3": "9",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué matemático es conocido por su teorema sobre la irracionalidad de la raíz cuadrada de 2?",
+        "numeroPregunta": 10,
+        "tematica": "Matemáticas",
+        "dificultad": "Dificil",
+        "opciones": {
+          "opcion1": "Hipias de Elis",
+          "opcion2": "Eudoxo de Cnido",
+          "opcion3": "Pitágoras",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué matemático es conocido por su teorema fundamental del cálculo?",
+        "numeroPregunta": 11,
+        "tematica": "Matemáticas",
+        "dificultad": "Media",
+        "opciones": {
+          "opcion1": "Isaac Newton",
+          "opcion2": "Gottfried Wilhelm Leibniz",
+          "opcion3": "Carl Friedrich Gauss",
+          "correcta": "opcion2"
+        }
+      },
+      {
+        "pregunta": "¿Qué matemático es conocido por su teorema del límite central?",
+        "numeroPregunta": 12,
+        "tematica": "Matemáticas",
+        "dificultad": "Dificil",
+        "opciones": {
+          "opcion1": "Pierre-Simon Laplace",
+          "opcion2": "Abraham de Moivre",
+          "opcion3": "Blaise Pascal",
+          "correcta": "opcion2"
+        }
+      },
+      {
+        "pregunta": "¿Qué matemático es conocido por sus contribuciones al análisis matemático y su teorema sobre series infinitas?",
+        "numeroPregunta": 13,
+        "tematica": "Matemáticas",
+        "dificultad": "Dificil",
+        "opciones": {
+          "opcion1": "Leonhard Euler",
+          "opcion2": "Bernhard Riemann",
+          "opcion3": "Joseph-Louis Lagrange",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué matemático es conocido por su teorema de la dualidad en programación lineal?",
+        "numeroPregunta": 14,
+        "tematica": "Matemáticas",
+        "dificultad": "Dificil",
+        "opciones": {
+          "opcion1": "George Dantzig",
+          "opcion2": "Richard Bellman",
+          "opcion3": "John von Neumann",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué matemático es conocido por su teorema sobre la existencia de soluciones en ecuaciones diferenciales parciales?",
+        "numeroPregunta": 15,
+        "tematica": "Matemáticas",
+        "dificultad": "Dificil",
+        "opciones": {
+          "opcion1": "Henri Poincaré",
+          "opcion2": "Emmy Noether",
+          "opcion3": "André Weil",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué matemático es conocido por su teorema sobre la existencia de ceros en funciones analíticas?",
+        "numeroPregunta": 16,
+        "tematica": "Matemáticas",
+        "dificultad": "Dificil",
+        "opciones": {
+          "opcion1": "Karl Weierstrass",
+          "opcion2": "Évariste Galois",
+          "opcion3": "Carl Gustav Jacob Jacobi",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué matemático es conocido por su teorema de los cuatro colores?",
+        "numeroPregunta": 17,
+        "tematica": "Matemáticas",
+        "dificultad": "Dificil",
+        "opciones": {
+          "opcion1": "Kenneth Appel",
+          "opcion2": "Paul Erdős",
+          "opcion3": "Leonhard Euler",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué matemático es conocido por su teorema de Bayes en probabilidad?",
+        "numeroPregunta": 18,
+        "tematica": "Matemáticas",
+        "dificultad": "Dificil",
+        "opciones": {
+          "opcion1": "Thomas Bayes",
+          "opcion2": "Blaise Pascal",
+          "opcion3": "Pierre-Simon Laplace",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué matemático es conocido por su teorema de la compacidad en lógica matemática?",
+        "numeroPregunta": 19,
+        "tematica": "Matemáticas",
+        "dificultad": "Dificil",
+        "opciones": {
+          "opcion1": "Kurt Gödel",
+          "opcion2": "Alfred Tarski",
+          "opcion3": "Gottlob Frege",
+          "correcta": "opcion2"
+        }
+      },
+      {
+        "pregunta": "¿Qué matemático es conocido por su teorema sobre la existencia de soluciones en ecuaciones polinómicas?",
+        "numeroPregunta": 20,
+        "tematica": "Matemáticas",
+        "dificultad": "Dificil",
+        "opciones": {
+          "opcion1": "Niels Henrik Abel",
+          "opcion2": "Évariste Galois",
+          "opcion3": "Carl Friedrich Gauss",
+          "correcta": "opcion2"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es el resultado de la operación 4x4 - 2x0?",
+        "numeroPregunta": 21,
+        "tematica": "Matemáticas",
+        "dificultad": "Facil",
+        "opciones": {
+          "opcion1": "16",
+          "opcion2": "8",
+          "opcion3": "4",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es el resultado de la operación 5 + 3x2?",
+        "numeroPregunta": 22,
+        "tematica": "Matemáticas",
+        "dificultad": "Facil",
+        "opciones": {
+          "opcion1": "11",
+          "opcion2": "16",
+          "opcion3": "10",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es el resultado de la operación (6 - 3)x4?",
+        "numeroPregunta": 23,
+        "tematica": "Matemáticas",
+        "dificultad": "Facil",
+        "opciones": {
+          "opcion1": "12",
+          "opcion2": "18",
+          "opcion3": "24",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es el resultado de la operación 7x3 + 2?",
+        "numeroPregunta": 24,
+        "dificultad": "Facil",
+        "tematica": "Matemáticas",
+        "opciones": {
+          "opcion1": "23",
+          "opcion2": "21",
+          "opcion3": "20",
+          "correcta": "opcion2"
+        }
+      }
+    ],
+    "literatura arte cine": [
+      {
+        "pregunta": "¿Quién escribió la obra 'Don Quijote de la Mancha'?",
+        "numeroPregunta": 1,
+        "tematica": "Literatura",
+        "dificultad": "Facil",
+        "opciones": {
+          "opcion1": "Miguel de Cervantes",
+          "opcion2": "William Shakespeare",
+          "opcion3": "Friedrich Nietzsche",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Quién escribió la obra 'El Principito'?",
+        "numeroPregunta": 2,
+        "dificultad": "Facil",
+        "tematica": "Literatura",
+        "opciones": {
+          "opcion1": "Antoine de Saint-Exupéry",
+          "opcion2": "J.K. Rowling",
+          "opcion3": "Gabriel García Márquez",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Quién es el autor de 'Cien años de soledad'?",
+        "numeroPregunta": 3,
+        "dificultad": "Facil",
+        "tematica": "Literatura",
+        "opciones": {
+          "opcion1": "Gabriel García Márquez",
+          "opcion2": "Mario Vargas Llosa",
+          "opcion3": "Julio Cortázar",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Quién es el autor de 'La Odisea'?",
+        "numeroPregunta": 4,
+        "dificultad": "Facil",
+        "tematica": "Literatura",
+        "opciones": {
+          "opcion1": "Homero",
+          "opcion2": "Virgilio",
+          "opcion3": "Ovidio",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Quién es el autor de 'Romeo y Julieta'?",
+        "numeroPregunta": 5,
+        "dificultad": "Facil",
+        "tematica": "Literatura",
+        "opciones": {
+          "opcion1": "William Shakespeare",
+          "opcion2": "Charles Dickens",
+          "opcion3": "Jane Austen",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Quién escribió 'Las aventuras de Tom Sawyer'?",
+        "numeroPregunta": 6,
+        "dificultad": "Facil",
+        "tematica": "Literatura",
+        "opciones": {
+          "opcion1": "Mark Twain",
+          "opcion2": "Jules Verne",
+          "opcion3": "Ernest Hemingway",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Quién es el autor de 'Moby Dick'?",
+        "numeroPregunta": 7,
+        "dificultad": "Facil",
+        "tematica": "Literatura",
+        "opciones": {
+          "opcion1": "Herman Melville",
+          "opcion2": "F. Scott Fitzgerald",
+          "opcion3": "Charles Dickens",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Quién es el autor de 'Orgullo y prejuicio'?",
+        "numeroPregunta": 8,
+        "dificultad": "Facil",
+        "tematica": "Literatura",
+        "opciones": {
+          "opcion1": "Jane Austen",
+          "opcion2": "Charlotte Brontë",
+          "opcion3": "Emily Brontë",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Quién es el autor de 'Crimen y castigo'?",
+        "numeroPregunta": 9,
+        "dificultad": "Facil",
+        "tematica": "Literatura",
+        "opciones": {
+          "opcion1": "Fyodor Dostoevsky",
+          "opcion2": "Leo Tolstoy",
+          "opcion3": "Anton Chekhov",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Quién es el autor de '1984'?",
+        "numeroPregunta": 10,
+        "dificultad": "Facil",
+        "tematica": "Literatura",
+        "opciones": {
+          "opcion1": "George Orwell",
+          "opcion2": "Aldous Huxley",
+          "opcion3": "Ray Bradbury",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Quién escribió 'La metamorfosis'?",
+        "numeroPregunta": 11,
+        "dificultad": "Facil",
+        "tematica": "Literatura",
+        "opciones": {
+          "opcion1": "Franz Kafka",
+          "opcion2": "Fyodor Dostoevsky",
+          "opcion3": "Ernest Hemingway",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Quién escribió 'Crónica de una muerte anunciada'?",
+        "numeroPregunta": 12,
+        "dificultad": "Facil",
+        "tematica": "Literatura",
+        "opciones": {
+          "opcion1": "Gabriel García Márquez",
+          "opcion2": "Mario Vargas Llosa",
+          "opcion3": "Julio Cortázar",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Quién escribió 'El retrato de Dorian Gray'?",
+        "numeroPregunta": 13,
+        "dificultad": "Media",
+        "tematica": "Literatura",
+        "opciones": {
+          "opcion1": "Oscar Wilde",
+          "opcion2": "F. Scott Fitzgerald",
+          "opcion3": "Ernest Hemingway",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Quién escribió 'Los Miserables'?",
+        "numeroPregunta": 14,
+        "dificultad": "Media",
+        "tematica": "Literatura",
+        "opciones": {
+          "opcion1": "Victor Hugo",
+          "opcion2": "Charles Dickens",
+          "opcion3": "Leo Tolstoy",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué escritor es conocido por sus novelas de ciencia ficción como '1984'?",
+        "numeroPregunta": 15,
+        "dificultad": "Media",
+        "tematica": "Literatura",
+        "opciones": {
+          "opcion1": "George Orwell",
+          "opcion2": "Aldous Huxley",
+          "opcion3": "Ray Bradbury",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué poema épico describe las aventuras de un héroe que luchó en la Guerra de Troya?",
+        "numeroPregunta": 16,
+        "tematica": "Literatura",
+        "dificultad": "Facil",
+        "opciones": {
+          "opcion1": "La Ilíada",
+          "opcion2": "La Odisea",
+          "opcion3": "Beowulf",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué escritor es conocido por su obra 'Anna Karenina'?",
+        "numeroPregunta": 17,
+        "tematica": "Literatura",
+        "dificultad": "Dificil",
+        "opciones": {
+          "opcion1": "León Tolstói",
+          "opcion2": "Fiodor Dostoevski",
+          "opcion3": "Anton Chéjov",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué obra de Shakespeare comienza con la frase 'Ser o no ser, esa es la cuestión'?",
+        "numeroPregunta": 18,
+        "tematica": "Literatura",
+        "dificultad": "Facil",
+        "opciones": {
+          "opcion1": "Hamlet",
+          "opcion2": "Romeo y Julieta",
+          "opcion3": "Macbeth",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué escritor es conocido por su obra 'El viejo y el mar'?",
+        "numeroPregunta": 19,
+        "tematica": "Literatura",
+        "dificultad": "Media",
+        "opciones": {
+          "opcion1": "Ernest Hemingway",
+          "opcion2": "William Faulkner",
+          "opcion3": "F. Scott Fitzgerald",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué escritor es conocido por su obra 'En busca del tiempo perdido'?",
+        "numeroPregunta": 20,
+        "tematica": "Literatura",
+        "dificultad": "Media",
+        "opciones": {
+          "opcion1": "Marcel Proust",
+          "opcion2": "James Joyce",
+          "opcion3": "Virginia Woolf",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué escritor es conocido por su obra 'El extranjero'?",
+        "numeroPregunta": 21,
+        "tematica": "Literatura",
+        "dificultad": "Dificil",
+        "opciones": {
+          "opcion1": "Albert Camus",
+          "opcion2": "Franz Kafka",
+          "opcion3": "Jean-Paul Sartre",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué escritor es conocido por su obra 'El gran Gatsby'?",
+        "numeroPregunta": 22,
+        "tematica": "Literatura",
+        "dificultad": "Dificil",
+        "opciones": {
+          "opcion1": "F. Scott Fitzgerald",
+          "opcion2": "Ernest Hemingway",
+          "opcion3": "William Faulkner",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué escritor es conocido por su obra 'Ulises'?",
+        "numeroPregunta": 23,
+        "tematica": "Literatura",
+        "dificultad": "Media",
+        "opciones": {
+          "opcion1": "James Joyce",
+          "opcion2": "William Faulkner",
+          "opcion3": "F. Scott Fitzgerald",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es la obra más famosa de Fiodor Dostoevski?",
+        "numeroPregunta": 24,
+        "tematica": "Literatura",
+        "dificultad": "Media",
+        "opciones": {
+          "opcion1": "Crimen y castigo",
+          "opcion2": "Los hermanos Karamázov",
+          "opcion3": "El idiota",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué movimiento artístico surgió en Italia en el siglo XVI, caracterizado por un interés en la cultura clásica?",
+        "numeroPregunta": 25,
+        "tematica": "Arte",
+        "dificultad": "Media",
+        "opciones": {
+          "opcion1": "Renacimiento",
+          "opcion2": "Barroco",
+          "opcion3": "Romanticismo",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Quién pintó la Mona Lisa?",
+        "numeroPregunta": 26,
+        "tematica": "Arte",
+        "dificultad": "Facil",
+        "opciones": {
+          "opcion1": "Leonardo da Vinci",
+          "opcion2": "Pablo Picasso",
+          "opcion3": "Vincent van Gogh",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué pintor es conocido por su obra 'La Noche Estrellada'?",
+        "numeroPregunta": 27,
+        "dificultad": "Facil",
+        "tematica": "Arte",
+        "opciones": {
+          "opcion1": "Vincent van Gogh",
+          "opcion2": "Pablo Picasso",
+          "opcion3": "Leonardo da Vinci",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué pintor español es conocido por su obra 'Guernica'?",
+        "numeroPregunta": 28,
+        "dificultad": "Facil",
+        "tematica": "Arte",
+        "opciones": {
+          "opcion1": "Pablo Picasso",
+          "opcion2": "Salvador Dalí",
+          "opcion3": "Diego Velázquez",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Quién es el autor de 'El jardín de las delicias'?",
+        "numeroPregunta": 29,
+        "dificultad": "Facil",
+        "tematica": "Arte",
+        "opciones": {
+          "opcion1": "Hieronymus Bosch",
+          "opcion2": "Leonardo da Vinci",
+          "opcion3": "Miguel Ángel",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué pintor es conocido por su serie de cuadros 'Nenúfares'?",
+        "numeroPregunta": 30,
+        "dificultad": "Facil",
+        "tematica": "Arte",
+        "opciones": {
+          "opcion1": "Claude Monet",
+          "opcion2": "Vincent van Gogh",
+          "opcion3": "Edgar Degas",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué artista es conocido por sus esculturas de bronce como 'El pensador'?",
+        "numeroPregunta": 31,
+        "dificultad": "Facil",
+        "tematica": "Arte",
+        "opciones": {
+          "opcion1": "Auguste Rodin",
+          "opcion2": "Michelangelo",
+          "opcion3": "Donatello",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué artista es conocido por sus pinturas surrealistas como 'La persistencia de la memoria'?",
+        "numeroPregunta": 32,
+        "dificultad": "Facil",
+        "tematica": "Arte",
+        "opciones": {
+          "opcion1": "Salvador Dalí",
+          "opcion2": "Pablo Picasso",
+          "opcion3": "Vincent van Gogh",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué artista es conocido por sus pinturas de flores y retratos como 'Los girasoles'?",
+        "numeroPregunta": 33,
+        "dificultad": "Facil",
+        "tematica": "Arte",
+        "opciones": {
+          "opcion1": "Vincent van Gogh",
+          "opcion2": "Claude Monet",
+          "opcion3": "Georgia O'Keeffe",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué artista es conocido por su obra 'La última cena'?",
+        "numeroPregunta": 34,
+        "dificultad": "Facil",
+        "tematica": "Arte",
+        "opciones": {
+          "opcion1": "Leonardo da Vinci",
+          "opcion2": "Michelangelo",
+          "opcion3": "Raphael",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué artista es conocido por su obra 'El grito'?",
+        "numeroPregunta": 35,
+        "dificultad": "Facil",
+        "tematica": "Arte",
+        "opciones": {
+          "opcion1": "Edvard Munch",
+          "opcion2": "Pablo Picasso",
+          "opcion3": "Vincent van Gogh",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué artista es conocido por su pintura 'Los jugadores de cartas'?",
+        "numeroPregunta": 36,
+        "dificultad": "Facil",
+        "tematica": "Arte",
+        "opciones": {
+          "opcion1": "Paul Cézanne",
+          "opcion2": "Edouard Manet",
+          "opcion3": "Claude Monet",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué artista es conocido por su pintura 'La joven de la perla'?",
+        "numeroPregunta": 37,
+        "dificultad": "Facil",
+        "tematica": "Arte",
+        "opciones": {
+          "opcion1": "Johannes Vermeer",
+          "opcion2": "Pablo Picasso",
+          "opcion3": "Vincent van Gogh",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué artista es conocido por su escultura 'David'?",
+        "numeroPregunta": 38,
+        "dificultad": "Facil",
+        "tematica": "Arte",
+        "opciones": {
+          "opcion1": "Michelangelo",
+          "opcion2": "Leonardo da Vinci",
+          "opcion3": "Raphael",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué pintor es conocido por su obra 'Las Meninas'?",
+        "numeroPregunta": 39,
+        "dificultad": "Media",
+        "tematica": "Arte",
+        "opciones": {
+          "opcion1": "Diego Velázquez",
+          "opcion2": "Rembrandt",
+          "opcion3": "Leonardo da Vinci",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Quién es el protagonista de la película 'Forest Gump'?",
+        "numeroPregunta": 40,
+        "dificultad": "Media",
+        "tematica": "Cine",
+        "opciones": {
+          "opcion1": "Tom Hanks",
+          "opcion2": "Leonardo DiCaprio",
+          "opcion3": "Brad Pitt",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿En qué ciudad argentina se celebra el Festival Internacional de Cine en la Argentina?",
+        "tematica": ["Cine", "Cultura General Argentina"],
+        "dificultad": "Media",
+        "numeroPregunta": 41,
+        "opciones": {
+          "opcion1": "Buenos Aires",
+          "opcion2": "Córdoba",
+          "opcion3": "Mar del Plata",
+          "correcta": "opcion3"
+        }
+      },
+      {
+        "pregunta": "¿Qué danza es típica de Argentina y es Patrimonio Cultural Inmaterial de la Humanidad?",
+        "tematica": ["Cine", "Cultura General Argentina"],
+        "numeroPregunta": 42,
+        "dificultad": "Facil",
+        "opciones": {
+          "opcion1": "Tango",
+          "opcion2": "Cueca",
+          "opcion3": "Samba",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué escritor argentino escribió 'El Aleph'?",
+        "tematica": ["Arte", "Cultura General Argentina"],
+        "dificultad": "Media",
+        "numeroPregunta": 113,
+        "opciones": {
+          "opcion1": "Jorge Luis Borges",
+          "opcion2": "Julio Cortázar",
+          "opcion3": "Ernesto Sabato",
+          "correcta": "opcion1"
+        }
+      }
+    ],
+    "historia": [
+      {
+        "pregunta": "¿En qué año comenzó la Primera Guerra Mundial?",
+        "numeroPregunta": 1,
+        "dificultad": "Facil",
+        "tematica": "Historia",
+        "opciones": {
+          "opcion1": "1914",
+          "opcion2": "1916",
+          "opcion3": "1918",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿En qué año se descubrió América?",
+        "numeroPregunta": 2,
+        "dificultad": "Facil",
+        "tematica": "Historia",
+        "opciones": {
+          "opcion1": "1492",
+          "opcion2": "1500",
+          "opcion3": "1510",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿En qué año se llevó a cabo la Revolución Rusa?",
+        "numeroPregunta": 3,
+        "dificultad": "Dificil",
+        "tematica": "Historia",
+        "opciones": {
+          "opcion1": "1917",
+          "opcion2": "1915",
+          "opcion3": "1920",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Quién fue el primer presidente de Estados Unidos?",
+        "numeroPregunta": 4,
+        "dificultad": "Facil",
+        "tematica": "Historia",
+        "opciones": {
+          "opcion1": "George Washington",
+          "opcion2": "Abraham Lincoln",
+          "opcion3": "Thomas Jefferson",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿En qué año se produjo la caída del Muro de Berlín?",
+        "numeroPregunta": 5,
+        "dificultad": "Facil",
+        "tematica": "Historia",
+        "opciones": {
+          "opcion1": "1989",
+          "opcion2": "1991",
+          "opcion3": "1987",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Quién es conocido como 'El Libertador'?",
+        "numeroPregunta": 6,
+        "dificultad": "Facil",
+        "tematica": "Historia",
+        "opciones": {
+          "opcion1": "Simón Bolívar",
+          "opcion2": "Che Guevara",
+          "opcion3": "José de San Martín",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿En qué año comenzó la Segunda Guerra Mundial?",
+        "numeroPregunta": 7,
+        "dificultad": "Facil",
+        "tematica": "Historia",
+        "opciones": {
+          "opcion1": "1939",
+          "opcion2": "1941",
+          "opcion3": "1936",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿En qué año se fundó la Organización de las Naciones Unidas (ONU)?",
+        "numeroPregunta": 8,
+        "dificultad": "Facil",
+        "tematica": "Historia",
+        "opciones": {
+          "opcion1": "1945",
+          "opcion2": "1950",
+          "opcion3": "1935",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿En qué año se proclamó la Declaración Universal de Derechos Humanos?",
+        "numeroPregunta": 9,
+        "dificultad": "Facil",
+        "tematica": "Historia",
+        "opciones": {
+          "opcion1": "1948",
+          "opcion2": "1950",
+          "opcion3": "1939",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Quién fue el líder de la Revolución Rusa?",
+        "numeroPregunta": 10,
+        "dificultad": "Facil",
+        "tematica": "Historia",
+        "opciones": {
+          "opcion1": "Vladimir Lenin",
+          "opcion2": "Joseph Stalin",
+          "opcion3": "Leon Trotsky",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿En qué año se llevó a cabo la Revolución Francesa?",
+        "numeroPregunta": 11,
+        "dificultad": "Facil",
+        "tematica": "Historia",
+        "opciones": {
+          "opcion1": "1789",
+          "opcion2": "1804",
+          "opcion3": "1750",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Quién fue el primer presidente de México?",
+        "numeroPregunta": 12,
+        "dificultad": "Facil",
+        "tematica": "Historia",
+        "opciones": {
+          "opcion1": "Guadalupe Victoria",
+          "opcion2": "Benito Juárez",
+          "opcion3": "Porfirio Díaz",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Quién fue el primer emperador romano?",
+        "numeroPregunta": 13,
+        "dificultad": "Facil",
+        "tematica": "Historia",
+        "opciones": {
+          "opcion1": "César Augusto",
+          "opcion2": "Julio César",
+          "opcion3": "Nerón",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿En qué año se fundó la ciudad de Roma?",
+        "numeroPregunta": 14,
+        "dificultad": "Facil",
+        "tematica": "Historia",
+        "opciones": {
+          "opcion1": "753 a.C.",
+          "opcion2": "44 a.C.",
+          "opcion3": "27 a.C.",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿En qué año comenzó la Revolución Francesa?",
+        "numeroPregunta": 15,
+        "dificultad": "Media",
+        "tematica": "Historia",
+        "opciones": {
+          "opcion1": "1789",
+          "opcion2": "1804",
+          "opcion3": "1792",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿En qué año se firmó el Tratado de Versalles?",
+        "numeroPregunta": 16,
+        "dificultad": "Media",
+        "tematica": "Historia",
+        "opciones": {
+          "opcion1": "1919",
+          "opcion2": "1918",
+          "opcion3": "1920",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Quién fue el primer hombre en pisar la Luna?",
+        "numeroPregunta": 17,
+        "dificultad": "Media",
+        "tematica": "Historia",
+        "opciones": {
+          "opcion1": "Neil Armstrong",
+          "opcion2": "Buzz Aldrin",
+          "opcion3": "Yuri Gagarin",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿En qué año se firmó la Declaración de Independencia de los Estados Unidos?",
+        "numeroPregunta": 18,
+        "dificultad": "Media",
+        "tematica": "Historia",
+        "opciones": {
+          "opcion1": "1776",
+          "opcion2": "1789",
+          "opcion3": "1804",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿En qué año comenzó la Revolución Industrial?",
+        "numeroPregunta": 19,
+        "dificultad": "Media",
+        "tematica": "Historia",
+        "opciones": {
+          "opcion1": "Siglo XVIII",
+          "opcion2": "Siglo XIX",
+          "opcion3": "Siglo XVII",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿En qué año terminó la Segunda Guerra Mundial?",
+        "numeroPregunta": 20,
+        "dificultad": "Media",
+        "tematica": "Historia",
+        "opciones": {
+          "opcion1": "1945",
+          "opcion2": "1943",
+          "opcion3": "1941",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿En qué año se promulgó la Declaración Universal de Derechos Humanos?",
+        "numeroPregunta": 21,
+        "tematica": "Historia",
+        "dificultad": "Media",
+        "opciones": {
+          "opcion1": "1948",
+          "opcion2": "1951",
+          "opcion3": "1939",
+          "correcta": "opcion1"
+        }
+      },
+
+      {
+        "pregunta": "¿En qué año se declaró la independencia de Argentina?",
+        "tematica": ["Historia", "Cultura General Argentina"],
+        "numeroPregunta": 22,
+        "dificultad": "Dificil",
+        "opciones": {
+          "opcion1": "1810",
+          "opcion2": "1816",
+          "opcion3": "1821",
+          "correcta": "opcion2"
+        }
+      }
+    ],
+    "cultura general argentina": [
+      {
+        "pregunta": "¿Qué provincia argentina es conocida por sus cascadas y selvas subtropicales?",
+        "tematica": "Cultura General Argentina",
+        "dificultad": "Media",
+        "numeroPregunta": 1,
+        "opciones": {
+          "opcion1": "Misiones",
+          "opcion2": "Corrientes",
+          "opcion3": "Entre Ríos",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Quién fue una famosa líder política y esposa de Juan Domingo Perón?",
+        "tematica": "Cultura General Argentina",
+        "dificultad": "Facil",
+        "numeroPregunta": 2,
+        "opciones": {
+          "opcion1": "Evita Perón",
+          "opcion2": "Cristina Fernández de Kirchner",
+          "opcion3": "Isabel Perón",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué equipo de fútbol es conocido como 'El Xeneize'?",
+        "tematica": ["Cultura General Argentina", "Deportes"],
+        "dificultad": "Facil",
+        "numeroPregunta": 3,
+        "opciones": {
+          "opcion1": "River Plate",
+          "opcion2": "Boca Juniors",
+          "opcion3": "Independiente",
+          "correcta": "opcion2"
+        }
+      },
+      {
+        "pregunta": "¿Qué plato típico argentino se prepara con carne asada a la parrilla?",
+        "tematica": "Cultura General Argentina",
+        "dificultad": "Facil",
+        "numeroPregunta": 4,
+        "opciones": {
+          "opcion1": "Empanadas",
+          "opcion2": "Milanesas",
+          "opcion3": "Asado",
+          "correcta": "opcion3"
+        }
+      },
+      {
+        "pregunta": "¿Qué famosa bailarina argentina es conocida como 'La Negra'?",
+        "tematica": "Cultura General Argentina",
+        "dificultad": "Dificil",
+        "numeroPregunta": 5,
+        "opciones": {
+          "opcion1": "Mora Godoy",
+          "opcion2": "Norma Fontenla",
+          "opcion3": "Eleonora Cassano",
+          "correcta": "opcion2"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es la moneda oficial de Argentina?",
+        "tematica": "Cultura General Argentina",
+        "dificultad": "Facil",
+        "numeroPregunta": 6,
+        "opciones": {
+          "opcion1": "Dólar",
+          "opcion2": "Euro",
+          "opcion3": "Peso argentino",
+          "correcta": "opcion3"
+        }
+      },
+      {
+        "pregunta": "¿En qué provincia argentina se encuentra la Quebrada de Humahuaca?",
+        "tematica": ["Cultura General Argentina", "Geografía"],
+        "dificultad": "Media",
+        "numeroPregunta": 7,
+        "opciones": {
+          "opcion1": "Jujuy",
+          "opcion2": "Tucumán",
+          "opcion3": "Salta",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del baile y música folclórica de los gauchos argentinos?",
+        "tematica": ["Cultura General Argentina", "Arte"],
+        "numeroPregunta": 8,
+        "dificultad": "Media",
+        "opciones": {
+          "opcion1": "Tango",
+          "opcion2": "Chacarera",
+          "opcion3": "Zamba",
+          "correcta": "opcion2"
+        }
+      },
+      {
+        "pregunta": "¿Qué provincia argentina es conocida por sus cascadas y selvas subtropicales?",
+        "tematica": ["Cultura General Argentina", "Geografía"],
+        "numeroPregunta": 9,
+        "dificultad": "Facil",
+        "opciones": {
+          "opcion1": "Misiones",
+          "opcion2": "Corrientes",
+          "opcion3": "Entre Ríos",
+          "correcta": "opcion1"
+        }
+      }
+    ],
+    "deportes": [
+      {
+        "pregunta": "¿Qué deporte es el más popular en Argentina?",
+        "tematica": ["Deportes", "Cultura General Argentina"],
+        "numeroPregunta": 1,
+        "dificultad": "Facil",
+        "opciones": {
+          "opcion1": "Rugby",
+          "opcion2": "Tenis",
+          "opcion3": "Fútbol",
+          "correcta": "opcion3"
+        }
+      },
+      {
+        "pregunta": "¿Qué deportista argentino ganó el oro olímpico en fútbol en Atenas 2004?",
+        "tematica": ["Deportes", "Cultura General Argentina"],
+        "numeroPregunta": 2,
+        "dificultad": "Media",
+        "opciones": {
+          "opcion1": "Diego Maradona",
+          "opcion2": "Lionel Messi",
+          "opcion3": "Carlos Tevez",
+          "correcta": "opcion3"
+        }
+      },
+      {
+        "pregunta": "¿Qué deportista argentino ganó el oro olímpico en los JJOO del 2008?",
+        "tematica": ["Deportes", "Cultura General Argentina"],
+        "dificultad": "Facil",
+        "numeroPregunta": 3,
+        "opciones": {
+          "opcion1": "Diego Maradona",
+          "opcion2": "Lionel Messi",
+          "opcion3": "Carlos Tevez",
+          "correcta": "opcion2"
+        }
+      },
+      {
+        "pregunta": "¿En qué deporte se utiliza un arco y una flecha?",
+        "numeroPregunta": 4,
+        "dificultad": "Media",
+        "tematica": "Deportes",
+        "opciones": {
+          "opcion1": "Tiro con arco",
+          "opcion2": "Esgrima",
+          "opcion3": "Polo",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿En qué deporte se utiliza una raqueta para golpear una pelota?",
+        "numeroPregunta": 5,
+        "tematica": "Deportes",
+        "dificultad": "Facil",
+        "opciones": {
+          "opcion1": "Tenis",
+          "opcion2": "Fútbol",
+          "opcion3": "Golf",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es el deporte más popular en Brasil?",
+        "numeroPregunta": 6,
+        "dificultad": "Facil",
+        "tematica": "Deportes",
+        "opciones": {
+          "opcion1": "Fútbol",
+          "opcion2": "Voleibol",
+          "opcion3": "Baloncesto",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es el deporte nacional de Japón?",
+        "numeroPregunta": 7,
+        "dificultad": "Facil",
+        "tematica": "Deportes",
+        "opciones": {
+          "opcion1": "Sumo",
+          "opcion2": "Judo",
+          "opcion3": "Karate",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Cuál de los siguientes es un deporte olímpico de invierno?",
+        "numeroPregunta": 8,
+        "dificultad": "Media",
+        "tematica": "Deportes",
+        "opciones": {
+          "opcion1": "Surf",
+          "opcion2": "Esquí alpino",
+          "opcion3": "Vela",
+          "correcta": "opcion2"
+        }
+      },
+      {
+        "pregunta": "¿Qué equipo ganó la Copa del Mundo de Fútbol en 2010?",
+        "numeroPregunta": 9,
+        "dificultad": "Media",
+        "tematica": "Deportes",
+        "opciones": {
+          "opcion1": "Brasil",
+          "opcion2": "Argentina",
+          "opcion3": "España",
+          "correcta": "opcion3"
+        }
+      },
+      {
+        "pregunta": "¿Que equipo perdio 7 - 0 contra su clasico rival?",
+        "numeroPregunta": 10,
+        "dificultad": "Facil",
+        "tematica": "Deportes",
+        "opciones": {
+          "opcion1": "San Lorenzo",
+          "opcion2": "Godoy Cruz",
+          "opcion3": "Gimnasia y Esgrima de la Plata",
+          "correcta": "opcion3"
+        }
+      },
+
+      {
+        "pregunta": "¿En qué deporte se realiza el 'puntaje perfecto'?",
+        "numeroPregunta": 11,
+        "dificultad": "Media",
+        "tematica": "Deportes",
+        "opciones": {
+          "opcion1": "Gimnasia artística",
+          "opcion2": "Salto de altura",
+          "opcion3": "Lanzamiento de disco",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué país es conocido por su dominio en el deporte del rugby?",
+        "numeroPregunta": 12,
+        "dificultad": "Media",
+        "tematica": "Deportes",
+        "opciones": {
+          "opcion1": "Nueva Zelanda",
+          "opcion2": "Australia",
+          "opcion3": "Francia",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué deporte se juega en un campo llamado 'court'?",
+        "numeroPregunta": 13,
+        "dificultad": "Media",
+        "tematica": "Deportes",
+        "opciones": {
+          "opcion1": "Fútbol",
+          "opcion2": "Baloncesto",
+          "opcion3": "Tenis",
+          "correcta": "opcion3"
+        }
+      },
+      {
+        "pregunta": "¿Cuál es el deporte nacional de Canadá?",
+        "numeroPregunta": 14,
+        "dificultad": "Media",
+        "tematica": "Deportes",
+        "opciones": {
+          "opcion1": "Hockey",
+          "opcion2": "Fútbol",
+          "opcion3": "Béisbol",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿En qué deporte se utilizan las palabras 'strike' y 'spare'?",
+        "numeroPregunta": 15,
+        "dificultad": "Media",
+        "tematica": "Deportes",
+        "opciones": {
+          "opcion1": "Baseball",
+          "opcion2": "Golf",
+          "opcion3": "Tiro con arco",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué deporte se juega en un campo que tiene una 'H'?",
+        "numeroPregunta": 16,
+        "dificultad": "Media",
+        "tematica": "Deportes",
+        "opciones": {
+          "opcion1": "Rugby",
+          "opcion2": "Béisbol",
+          "opcion3": "Golf",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Qué valor tiene un TRY en Rugby?",
+        "numeroPregunta": 17,
+        "dificultad": "Facil",
+        "tematica": "Deportes",
+        "opciones": {
+          "opcion1": "7",
+          "opcion2": "5",
+          "opcion3": "3",
+          "correcta": "opcion2"
+        }
+      },
+      {
+        "pregunta": "¿Qué valor tiene un TRY convertirdo en Rugby?",
+        "numeroPregunta": 18,
+        "dificultad": "Facil",
+        "tematica": "Deportes",
+        "opciones": {
+          "opcion1": "7",
+          "opcion2": "5",
+          "opcion3": "3",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Quienes hicieron los goles de estudiantes en la final de libertadores del 2009?",
+        "numeroPregunta": 19,
+        "dificultad": "Media",
+        "tematica": "Deportes",
+        "opciones": {
+          "opcion1": "Veron y Boselli",
+          "opcion2": "Boselli y Fernandez",
+          "opcion3": "Fernandez y Veron",
+          "correcta": "opcion2"
+        }
+      },
+      {
+        "pregunta": "¿Quien murio en Madrid?",
+        "numeroPregunta": 20,
+        "dificultad": "Media",
+        "tematica": "Deportes",
+        "opciones": {
+          "opcion1": "Boca Juniors",
+          "opcion2": "El rey Felipe IV",
+          "opcion3": "Rafael Nadal",
+          "correcta": "opcion1"
+        }
+      },
+      {
+        "pregunta": "¿Quien se fue a la B Nacional en 2014?",
+        "numeroPregunta": 21,
+        "dificultad": "Media",
+        "tematica": "Deportes",
+        "opciones": {
+          "opcion1": "Independiente",
+          "opcion2": "River Plate",
+          "opcion3": "Todas son correctas",
+          "opcion4": "Estudiantes de la Plata",
+          "correcta": "opcion2"
+        }
+      }
+    ]
+  }
+]

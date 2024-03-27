@@ -1,0 +1,38 @@
+.ContenedorGeneral {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  height: calc(100vh - 10vh);
+}
+
+.ContenedorBtns {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem;
+  gap: 2rem;
+}
+
+.ContenedorRespuestas {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.BtnRespuesta {
+  width: 100%;
+  background-color: bisque;
+  padding: 1rem;
+  margin: 0.5rem;
+  text-align: center;
+  color: black;
+}
+
+.BtnRespuestaCorrecta {
+  background-color: green;
+}
+
+.BtnRespuestaIncorrecta {
+  background-color: red;
+}
