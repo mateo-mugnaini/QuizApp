@@ -7,21 +7,20 @@ import ProgressBar from "../components/PogressBar/pogressBar";
 import Modal from "../components/FinalMessage/Modal";
 import FinalMessage from "../components/FinalMessage/finalMessage";
 
-const PreguntasFaciles = () => {
+const PreguntasDificiles = () => {
   const todasLasPreguntas = [].concat(...Object.values(Preguntas[0]));
 
   const preguntasDificil = todasLasPreguntas.filter(
     (pregunta) => pregunta.dificultad === "Dificil"
   );
-  console.log(preguntasDificil);
 
   const [currentQuestion, setCurrentQuestion] = useState(null);
   const [points, setPoints] = useState(0);
   const [progress, setProgress] = useState(0);
   const [showModal, setShowModal] = useState(false);
   const [usedQuestions, setUsedQuestions] = useState([]);
-  const [buttonColors, setButtonColors] = useState({}); // Estado para los colores de los botones
-  const [disableButtons, setDisableButtons] = useState(false); // Estado para deshabilitar los botones
+  const [buttonColors, setButtonColors] = useState({});
+  const [disableButtons, setDisableButtons] = useState(false);
 
   const getRandomQuestion = () => {
     if (progress < 20) {
@@ -37,15 +36,19 @@ const PreguntasFaciles = () => {
       const randomIndex = Math.floor(Math.random() * availableQuestions.length);
       const randomQuestion = availableQuestions[randomIndex];
 
-      setCurrentQuestion(randomQuestion);
+      const shuffledOptions = shuffleOptions(randomQuestion.opciones);
+      setCurrentQuestion({ ...randomQuestion, opciones: shuffledOptions });
+
       setUsedQuestions([...usedQuestions, randomQuestion.id]);
       setProgress(progress + 1);
-      setDisableButtons(false); // Habilitar los botones nuevamente al obtener una nueva pregunta
+      setDisableButtons(false);
 
-      // Retraso de un segundo antes de mostrar la siguiente pregunta
       setTimeout(() => {
-        setCurrentQuestion(randomQuestion);
-        // Restablecer el color de los botones a su estado original
+        console.log(
+          "Opciones de respuesta seleccionadas:",
+          currentQuestion.opciones
+        );
+        setCurrentQuestion({ ...randomQuestion, opciones: shuffledOptions });
         setButtonColors({});
       }, 600);
     } else {
@@ -53,11 +56,33 @@ const PreguntasFaciles = () => {
     }
   };
 
+  const shuffleOptions = (options) => {
+    const keys = Object.keys(options);
+    const shuffledKeys = shuffleArray(keys);
+    const shuffledOptions = {};
+
+    shuffledKeys.forEach((key) => {
+      shuffledOptions[key] = options[key];
+    });
+
+    console.log("Opciones de respuesta original:", options);
+    console.log("Opciones de respuesta aleatorias:", shuffledOptions);
+
+    return shuffledOptions;
+  };
+
+  const shuffleArray = (array) => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  };
+
   const handleOptionSelect = (selected) => {
     const isCorrect = selected === currentQuestion.opciones.correcta;
     setPoints(isCorrect ? points + 0.5 : points);
 
-    // Actualizar el estado de los colores de los botones
     const newButtonColors = {
       ...Object.fromEntries(
         Object.keys(currentQuestion.opciones).map((key) => [
@@ -71,9 +96,8 @@ const PreguntasFaciles = () => {
       ),
     };
     setButtonColors(newButtonColors);
-    setDisableButtons(true); // Deshabilitar los botones después de seleccionar una opción
+    setDisableButtons(true);
 
-    // Retraso de un segundo antes de obtener una nueva pregunta
     setTimeout(() => {
       getRandomQuestion();
       setButtonColors({});
@@ -129,4 +153,4 @@ const PreguntasFaciles = () => {
   );
 };
 
-export default PreguntasFaciles;
+export default PreguntasDificiles;

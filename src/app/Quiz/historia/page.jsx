@@ -42,7 +42,9 @@ const PreguntasDeportes = () => {
       const randomIndex = Math.floor(Math.random() * availableQuestions.length);
       const randomQuestion = availableQuestions[randomIndex];
 
-      setCurrentQuestion(randomQuestion);
+      const shuffledOptions = shuffleOptions(randomQuestion.opciones);
+      setCurrentQuestion({ ...randomQuestion, opciones: shuffledOptions });
+
       setUsedQuestions((prevUsedQuestions) => [
         ...prevUsedQuestions,
         randomQuestion?.numeroPregunta,
@@ -51,12 +53,35 @@ const PreguntasDeportes = () => {
       setDisableButtons(false);
 
       setTimeout(() => {
-        setCurrentQuestion(randomQuestion);
+        setCurrentQuestion({ ...randomQuestion, opciones: shuffledOptions });
         setButtonColors({});
       }, 600);
     } else {
       setShowModal(true);
     }
+  };
+
+  const shuffleOptions = (options) => {
+    const keys = Object.keys(options);
+    const shuffledKeys = shuffleArray(keys);
+    const shuffledOptions = {};
+
+    shuffledKeys.forEach((key) => {
+      shuffledOptions[key] = options[key];
+    });
+
+    console.log("Opciones de respuesta original:", options);
+    console.log("Opciones de respuesta aleatorias:", shuffledOptions);
+
+    return shuffledOptions;
+  };
+
+  const shuffleArray = (array) => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
   };
 
   const handleOptionSelect = (selected) => {
