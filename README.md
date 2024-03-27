@@ -40,7 +40,7 @@ QuizApp es una aplicación de preguntas y respuestas donde como usuario puedes d
   - 📌 Vercel
 
 
-# Cosas a Futuro
+# Proximas Actualizaciones
 
 - **Responsive**: Adaptabilidad para diferentes dispositivos.
   
