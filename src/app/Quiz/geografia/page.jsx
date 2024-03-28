@@ -38,13 +38,6 @@ const PreguntasDeportes = () => {
     }, 1500);
   };
 
-  const getRandomQuestion = () => {
-    // Aquí deberías implementar la lógica para obtener una pregunta aleatoria.
-    // Por ejemplo:
-    // const randomQuestion = getRandomQuestionFromTheme("Deportes");
-    // setCurrentQuestion(randomQuestion);
-  };
-
   useEffect(() => {
     getRandomQuestion();
   }, []);
@@ -61,7 +54,7 @@ const PreguntasDeportes = () => {
     <div className={s.ContenedorGeneral}>
       <div>
         <PreguntasPage
-          tema="Deportes"
+          tema="Geografia"
           handleOptionSelect={handleOptionSelect}
           buttonColors={buttonColors}
           disableButtons={disableButtons}

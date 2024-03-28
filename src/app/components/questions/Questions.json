@@ -5,7 +5,7 @@
         "pregunta": "¿Cuál es el río más largo del mundo?",
         "numeroPregunta": 1,
         "dificultad": "Facil",
-        "tematica": "Geografía",
+        "tematica": "Geografia",
         "opciones": {
           "opcion1": "Amazonas",
           "opcion2": "Nilo",
@@ -17,7 +17,7 @@
         "pregunta": "¿Cuál es la montaña más alta del mundo?",
         "numeroPregunta": 2,
         "dificultad": "Facil",
-        "tematica": "Geografía",
+        "tematica": "Geografia",
         "opciones": {
           "opcion1": "Monte Everest",
           "opcion2": "Monte Kilimanjaro",
@@ -29,7 +29,7 @@
         "pregunta": "¿Cuál es el océano más grande del mundo?",
         "numeroPregunta": 3,
         "dificultad": "Facil",
-        "tematica": "Geografía",
+        "tematica": "Geografia",
         "opciones": {
           "opcion1": "Océano Pacífico",
           "opcion2": "Océano Atlántico",
@@ -41,7 +41,7 @@
         "pregunta": "¿Cuál es el desierto más grande del mundo?",
         "numeroPregunta": 4,
         "dificultad": "Facil",
-        "tematica": "Geografía",
+        "tematica": "Geografia",
         "opciones": {
           "opcion1": "Desierto del Sahara",
           "opcion2": "Desierto de Atacama",
@@ -53,7 +53,7 @@
         "pregunta": "¿En qué país se encuentra la Torre Eiffel?",
         "numeroPregunta": 5,
         "dificultad": "Facil",
-        "tematica": "Geografía",
+        "tematica": "Geografia",
         "opciones": {
           "opcion1": "Francia",
           "opcion2": "Italia",
@@ -65,7 +65,7 @@
         "pregunta": "¿Cuál es la capital de Rusia?",
         "numeroPregunta": 6,
         "dificultad": "Facil",
-        "tematica": "Geografía",
+        "tematica": "Geografia",
         "opciones": {
           "opcion1": "Moscú",
           "opcion2": "San Petersburgo",
@@ -77,7 +77,7 @@
         "pregunta": "¿Cuál es el río más largo de América del Sur?",
         "numeroPregunta": 7,
         "dificultad": "Facil",
-        "tematica": "Geografía",
+        "tematica": "Geografia",
         "opciones": {
           "opcion1": "Amazonas",
           "opcion2": "Río de la Plata",
@@ -89,7 +89,7 @@
         "pregunta": "¿Qué país es conocido como la 'Tierra del Sol Naciente'?",
         "numeroPregunta": 8,
         "dificultad": "Facil",
-        "tematica": "Geografía",
+        "tematica": "Geografia",
         "opciones": {
           "opcion1": "Japón",
           "opcion2": "China",
@@ -101,7 +101,7 @@
         "pregunta": "¿Cuál es la capital de Italia?",
         "numeroPregunta": 9,
         "dificultad": "Facil",
-        "tematica": "Geografía",
+        "tematica": "Geografia",
         "opciones": {
           "opcion1": "Roma",
           "opcion2": "Milán",
@@ -113,7 +113,7 @@
         "pregunta": "¿Qué país es conocido como la 'Tierra de los Faraones'?",
         "numeroPregunta": 10,
         "dificultad": "Facil",
-        "tematica": "Geografía",
+        "tematica": "Geografia",
         "opciones": {
           "opcion1": "Egipto",
           "opcion2": "Irak",
@@ -125,7 +125,7 @@
         "pregunta": "¿Cuál es el río más largo de Europa?",
         "numeroPregunta": 11,
         "dificultad": "Facil",
-        "tematica": "Geografía",
+        "tematica": "Geografia",
         "opciones": {
           "opcion1": "Volga",
           "opcion2": "Danubio",
@@ -137,7 +137,7 @@
         "pregunta": "¿Cuál es la capital de Canadá?",
         "numeroPregunta": 12,
         "dificultad": "Dificil",
-        "tematica": "Geografía",
+        "tematica": "Geografia",
         "opciones": {
           "opcion1": "Ottawa",
           "opcion2": "Toronto",
@@ -149,7 +149,7 @@
         "pregunta": "¿Cuál es el país más pequeño del mundo?",
         "numeroPregunta": 13,
         "dificultad": "Facil",
-        "tematica": "Geografía",
+        "tematica": "Geografia",
         "opciones": {
           "opcion1": "Ciudad del Vaticano",
           "opcion2": "Mónaco",
@@ -161,7 +161,7 @@
         "pregunta": "¿Cuál es la capital de Sudáfrica?",
         "numeroPregunta": 14,
         "dificultad": "Facil",
-        "tematica": "Geografía",
+        "tematica": "Geografia",
         "opciones": {
           "opcion1": "Pretoria",
           "opcion2": "Ciudad del Cabo",
@@ -173,7 +173,7 @@
         "pregunta": "¿Cuál es la capital de Noruega?",
         "numeroPregunta": 15,
         "dificultad": "Facil",
-        "tematica": "Geografía",
+        "tematica": "Geografia",
         "opciones": {
           "opcion1": "Oslo",
           "opcion2": "Estocolmo",
@@ -185,7 +185,7 @@
         "pregunta": "¿Cuál es la capital de Suecia?",
         "numeroPregunta": 16,
         "dificultad": "Facil",
-        "tematica": "Geografía",
+        "tematica": "Geografia",
         "opciones": {
           "opcion1": "Estocolmo",
           "opcion2": "Oslo",
@@ -197,7 +197,7 @@
         "pregunta": "¿Cuál es la capital de Nueva Zelanda?",
         "numeroPregunta": 17,
         "dificultad": "Facil",
-        "tematica": "Geografía",
+        "tematica": "Geografia",
         "opciones": {
           "opcion1": "Wellington",
           "opcion2": "Auckland",
@@ -209,7 +209,7 @@
         "pregunta": "¿Cuál es el volcán más alto del mundo?",
         "numeroPregunta": 18,
         "dificultad": "Media",
-        "tematica": "Geografía",
+        "tematica": "Geografia",
         "opciones": {
           "opcion1": "Ojos del Salado",
           "opcion2": "Monte Kilimanjaro",
@@ -221,7 +221,7 @@
         "pregunta": "¿En qué país se encuentra la ciudad de Petra?",
         "numeroPregunta": 19,
         "dificultad": "Media",
-        "tematica": "Geografía",
+        "tematica": "Geografia",
         "opciones": {
           "opcion1": "Jordania",
           "opcion2": "Egipto",
@@ -233,7 +233,7 @@
         "pregunta": "¿Cuál es la capital de Australia?",
         "numeroPregunta": 20,
         "dificultad": "Media",
-        "tematica": "Geografía",
+        "tematica": "Geografia",
         "opciones": {
           "opcion1": "Canberra",
           "opcion2": "Sídney",
@@ -245,7 +245,7 @@
         "pregunta": "¿Cuál es la capital de Argentina?",
         "numeroPregunta": 21,
         "dificultad": "Media",
-        "tematica": ["Geografía", "Cultura General Argentina"],
+        "tematica": ["Geografia", "Cultura General Argentina"],
         "opciones": {
           "opcion1": "Buenos Aires",
           "opcion2": "Córdoba",
@@ -257,7 +257,7 @@
         "pregunta": "¿Cuál es el lago más profundo del mundo?",
         "numeroPregunta": 22,
         "dificultad": "Media",
-        "tematica": "Geografía",
+        "tematica": "Geografia",
         "opciones": {
           "opcion1": "Lago Baikal",
           "opcion2": "Lago Titicaca",
@@ -269,7 +269,7 @@
         "pregunta": "¿Cuál es la capital de Perú?",
         "numeroPregunta": 23,
         "dificultad": "Media",
-        "tematica": "Geografía",
+        "tematica": "Geografia",
         "opciones": {
           "opcion1": "Lima",
           "opcion2": "Cusco",
@@ -281,7 +281,7 @@
         "pregunta": "¿Cuál es la capital de Colombia?",
         "numeroPregunta": 24,
         "dificultad": "Media",
-        "tematica": "Geografía",
+        "tematica": "Geografia",
         "opciones": {
           "opcion1": "Bogotá",
           "opcion2": "Medellín",
@@ -293,7 +293,7 @@
         "pregunta": "¿Cuál es el río más largo de Asia?",
         "numeroPregunta": 25,
         "dificultad": "Media",
-        "tematica": "Geografía",
+        "tematica": "Geografia",
         "opciones": {
           "opcion1": "Río Yangtsé",
           "opcion2": "Río Ganges",
@@ -305,7 +305,7 @@
         "pregunta": "¿Cuál es la capital de Marruecos?",
         "numeroPregunta": 26,
         "dificultad": "Media",
-        "tematica": "Geografía",
+        "tematica": "Geografia",
         "opciones": {
           "opcion1": "Rabat",
           "opcion2": "Casablanca",
@@ -317,7 +317,7 @@
         "pregunta": "¿Cuál es el río más largo de África?",
         "numeroPregunta": 27,
         "dificultad": "Media",
-        "tematica": "Geografía",
+        "tematica": "Geografia",
         "opciones": {
           "opcion1": "Nilo",
           "opcion2": "Congo",
@@ -329,7 +329,7 @@
         "pregunta": "¿Cuál es la capital de Corea del Sur?",
         "numeroPregunta": 28,
         "dificultad": "Media",
-        "tematica": "Geografía",
+        "tematica": "Geografia",
         "opciones": {
           "opcion1": "Seúl",
           "opcion2": "Busan",
@@ -341,7 +341,7 @@
         "pregunta": "¿Cuál es el río más largo de América del Norte?",
         "numeroPregunta": 29,
         "dificultad": "Media",
-        "tematica": "Geografía",
+        "tematica": "Geografia",
         "opciones": {
           "opcion1": "Mississippi",
           "opcion2": "Mackenzie",
@@ -351,7 +351,7 @@
       },
       {
         "pregunta": "¿Qué montaña es la más alta de Argentina?",
-        "tematica": ["Geografía", "Cultura General Argentina"],
+        "tematica": ["Geografia", "Cultura General Argentina"],
         "numeroPregunta": 30,
         "dificultad": "Media",
         "opciones": {
@@ -363,7 +363,7 @@
       },
       {
         "pregunta": "¿Cuál es el río más ancho de Argentina?",
-        "tematica": ["Geografía", "Cultura General Argentina"],
+        "tematica": ["Geografia", "Cultura General Argentina"],
         "numeroPregunta": 31,
         "dificultad": "Media",
         "opciones": {
@@ -375,7 +375,7 @@
       },
       {
         "pregunta": "¿Qué provincia argentina es conocida como 'La tierra de sol y vino'?",
-        "tematica": ["Geografía", "Cultura General Argentina"],
+        "tematica": ["Geografia", "Cultura General Argentina"],
         "numeroPregunta": 32,
         "dificultad": "Facil",
         "opciones": {
@@ -1538,7 +1538,7 @@
       },
       {
         "pregunta": "¿En qué provincia argentina se encuentra la Quebrada de Humahuaca?",
-        "tematica": ["Cultura General Argentina", "Geografía"],
+        "tematica": ["Cultura General Argentina", "Geografia"],
         "dificultad": "Media",
         "numeroPregunta": 7,
         "opciones": {
@@ -1562,7 +1562,7 @@
       },
       {
         "pregunta": "¿Qué provincia argentina es conocida por sus cascadas y selvas subtropicales?",
-        "tematica": ["Cultura General Argentina", "Geografía"],
+        "tematica": ["Cultura General Argentina", "Geografia"],
         "numeroPregunta": 9,
         "dificultad": "Facil",
         "opciones": {

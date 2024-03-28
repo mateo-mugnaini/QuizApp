@@ -1,18 +1,21 @@
-"use client";
+// PreguntasPage.js
 import React, { useState, useEffect } from "react";
-import Preguntas from "../../components/questions/Questions";
-import s from "../styles/page.module.css";
-import Points from "../components/Points/points";
-import ProgressBar from "../components/PogressBar/pogressBar";
-import Modal from "../components/FinalMessage/Modal";
-import FinalMessage from "../components/FinalMessage/finalMessage";
-
-const PreguntasMedias = () => {
+import Preguntas from "../../../components/questions/Questions";
+import Points from "../Points/points";
+import ProgressBar from "../PogressBar/pogressBar";
+import Modal from "../FinalMessage/Modal";
+import FinalMessage from "../FinalMessage/finalMessage";
+import s from "../../styles/page.module.css";
+const PreguntasPage = ({ tema }) => {
   const todasLasPreguntas = [].concat(...Object.values(Preguntas[0]));
 
-  const preguntasMedias = todasLasPreguntas.filter(
-    (pregunta) => pregunta.dificultad === "Media"
-  );
+  const filterByTheme = (theme) => {
+    return todasLasPreguntas.filter((pregunta) =>
+      pregunta.tematica.includes(theme)
+    );
+  };
+
+  const allQuestions = filterByTheme(tema);
 
   const [currentQuestion, setCurrentQuestion] = useState(null);
   const [points, setPoints] = useState(0);
@@ -24,13 +27,13 @@ const PreguntasMedias = () => {
 
   const getRandomQuestion = () => {
     if (progress < 20) {
-      let availableQuestions = preguntasMedias.filter(
-        (question) => !usedQuestions.includes(question.id)
+      let availableQuestions = allQuestions.filter(
+        (question) => !usedQuestions.includes(question.numeroPregunta)
       );
 
       if (availableQuestions.length === 0) {
-        availableQuestions = preguntasMedias;
-        setUsedQuestions([]);
+        setShowModal(true);
+        return;
       }
 
       const randomIndex = Math.floor(Math.random() * availableQuestions.length);
@@ -39,15 +42,14 @@ const PreguntasMedias = () => {
       const shuffledOptions = shuffleOptions(randomQuestion.opciones);
       setCurrentQuestion({ ...randomQuestion, opciones: shuffledOptions });
 
-      setUsedQuestions([...usedQuestions, randomQuestion.id]);
+      setUsedQuestions((prevUsedQuestions) => [
+        ...prevUsedQuestions,
+        randomQuestion?.numeroPregunta,
+      ]);
       setProgress(progress + 1);
       setDisableButtons(false);
 
       setTimeout(() => {
-        console.log(
-          "Opciones de respuesta seleccionadas:",
-          currentQuestion.opciones
-        );
         setCurrentQuestion({ ...randomQuestion, opciones: shuffledOptions });
         setButtonColors({});
       }, 600);
@@ -64,9 +66,6 @@ const PreguntasMedias = () => {
     shuffledKeys.forEach((key) => {
       shuffledOptions[key] = options[key];
     });
-
-    console.log("Opciones de respuesta original:", options);
-    console.log("Opciones de respuesta aleatorias:", shuffledOptions);
 
     return shuffledOptions;
   };
@@ -121,7 +120,7 @@ const PreguntasMedias = () => {
       <Points points={points} />
       <ProgressBar progress={progress} />
       <div>
-        <h3 className={s.Pregunta}>{currentQuestion?.pregunta}</h3>
+        <h3>{currentQuestion?.pregunta}</h3>
         <ul>
           {currentQuestion &&
             Object.keys(currentQuestion.opciones).map((opcionKey) => {
@@ -149,4 +148,4 @@ const PreguntasMedias = () => {
   );
 };
 
-export default PreguntasMedias;
+export default PreguntasPage;

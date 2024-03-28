@@ -17,8 +17,8 @@ export default function Home() {
           className={styles.ImageLogo}
           src={Logo2}
           alt="Imagen de bienvenida"
-          width={500}
-          height={400}
+          width={800}
+          height={300}
         />
       </div>
       <a href="/Quiz" className={styles.button}>

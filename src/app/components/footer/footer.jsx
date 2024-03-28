@@ -15,7 +15,7 @@ const Footer = () => {
         height={100 * 1.5}
       />
       <h2 className={s.yo}>Created by Mateo Mugnaini</h2>
-      <h4>V. 1.0.0</h4>
+      <h4>V. 1.0.1</h4>
     </div>
   );
 };

@@ -4,21 +4,37 @@
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  height: 100vh;
+  height: 80vh;
   width: 100%;
 }
 
 .ContenedorOpciones {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
   gap: 2rem;
 }
 
-.Opcion {
+.BotonAtras,
+.Opcion2 {
+  display: flex;
+  align-items: center;
+  max-width: 15rem;
+  height: 5rem;
+  text-align: center;
+  justify-content: center;
   background-color: rgb(144, 138, 138);
   padding: 0.5rem 1rem;
-  border-radius: 5rem;
+  border-radius: 2rem;
 }
-.Opcion:hover {
+
+.BotonAtras:hover {
+  cursor: pointer;
+  background-color: rgba(252, 0, 0, 0.507);
+}
+.Opcion2:hover {
+  cursor: pointer;
   background-color: rgb(80, 80, 80);
 }

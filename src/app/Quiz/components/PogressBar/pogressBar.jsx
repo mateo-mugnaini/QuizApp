@@ -6,7 +6,7 @@ const ProgressBar = ({ progress }) => {
 
   return (
     <div className={s.ContenedorGeneral}>
-      <div className={s.Counter}>{`${progress}/20`}</div>{" "}
+      <div className={s.Counter}>Pregunta {`${progress} de 20`}</div>{" "}
       <div className={s.ProgressBar}>
         <div className={s.Progress} style={{ width: `${percentage}%` }}></div>
       </div>

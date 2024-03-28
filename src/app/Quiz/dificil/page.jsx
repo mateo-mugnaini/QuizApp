@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Preguntas from "../../components/questions/Questions";
-import s from "./page.module.css";
+import s from "../styles/page.module.css";
 import Points from "../components/Points/points";
 import ProgressBar from "../components/PogressBar/pogressBar";
 import Modal from "../components/FinalMessage/Modal";
@@ -65,7 +65,6 @@ const PreguntasDificiles = () => {
       shuffledOptions[key] = options[key];
     });
 
-    console.log("Opciones de respuesta original:", options);
     console.log("Opciones de respuesta aleatorias:", shuffledOptions);
 
     return shuffledOptions;
@@ -118,10 +117,6 @@ const PreguntasDificiles = () => {
 
   return (
     <div className={s.ContenedorGeneral}>
-      <div className={s.ContenedorBtns}>
-        <a href="/Quiz">Volver a atras</a>
-        <a href="/">Volver al Home</a>
-      </div>
       <Points points={points} />
       <ProgressBar progress={progress} />
       <div>

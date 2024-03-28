@@ -56,7 +56,18 @@ const Quiz = () => {
             <Link className={s.Opcion2} href="/Quiz/CGA">
               <h2>Cultura General Argentina</h2>
             </Link>
-            <Link className={s.Opcion2} href="/Quiz/geografia"></Link>
+            <Link className={s.Opcion2} href="/Quiz/geografia">
+              <h2>Geografia</h2>
+            </Link>
+            <Link className={s.Opcion2} href="/Quiz/geografia">
+              <h2>Geografia</h2>
+            </Link>
+            <Link className={s.Opcion2} href="/Quiz/geografia">
+              <h2>Geografia</h2>
+            </Link>
+            <Link className={s.Opcion2} href="/Quiz/geografia">
+              <h2>Geografia</h2>
+            </Link>
             <h2
               className={s.BotonAtras}
               onClick={() => setFiltroDificultad(null)}

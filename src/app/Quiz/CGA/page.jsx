@@ -1,88 +1,17 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import Preguntas from "../../components/questions/Questions";
-import s from "./page.module.css";
-import Points from "../components/Points/points";
-import ProgressBar from "../components/PogressBar/pogressBar";
+import s from "../styles/page.module.css";
 import Modal from "../components/FinalMessage/Modal";
 import FinalMessage from "../components/FinalMessage/finalMessage";
+import PreguntasPage from "../components/PreguntaPage/PreguntaPage";
 
-const PreguntasCGA = () => {
-  const todasLasPreguntas = [].concat(...Object.values(Preguntas[0]));
-
-  const filterByTheme = (theme) => {
-    return todasLasPreguntas.filter((pregunta) =>
-      pregunta.tematica.includes(theme)
-    );
-  };
-
-  const preguntasCGA = filterByTheme("Cultura General Argentina");
-
-  const [currentQuestion, setCurrentQuestion] = useState(null);
+const PreguntasDeportes = () => {
   const [points, setPoints] = useState(0);
-  const [progress, setProgress] = useState(0);
   const [showModal, setShowModal] = useState(false);
-  const [usedQuestions, setUsedQuestions] = useState([]);
   const [buttonColors, setButtonColors] = useState({});
   const [disableButtons, setDisableButtons] = useState(false);
 
-  const getRandomQuestion = () => {
-    if (progress < 20) {
-      let availableQuestions = preguntasCGA.filter(
-        (question) => !usedQuestions.includes(question.numeroPregunta)
-      );
-
-      if (availableQuestions.length === 0) {
-        setShowModal(true); // Si no hay más preguntas disponibles, muestra el modal final.
-        return;
-      }
-
-      const randomIndex = Math.floor(Math.random() * availableQuestions.length);
-      const randomQuestion = availableQuestions[randomIndex];
-
-      const shuffledOptions = shuffleOptions(randomQuestion.opciones);
-      setCurrentQuestion({ ...randomQuestion, opciones: shuffledOptions });
-
-      setUsedQuestions((prevUsedQuestions) => [
-        ...prevUsedQuestions,
-        randomQuestion?.numeroPregunta,
-      ]);
-      setProgress(progress + 1);
-      setDisableButtons(false);
-
-      setTimeout(() => {
-        setCurrentQuestion({ ...randomQuestion, opciones: shuffledOptions });
-        setButtonColors({});
-      }, 600);
-    } else {
-      setShowModal(true);
-    }
-  };
-
-  const shuffleOptions = (options) => {
-    const keys = Object.keys(options);
-    const shuffledKeys = shuffleArray(keys);
-    const shuffledOptions = {};
-
-    shuffledKeys.forEach((key) => {
-      shuffledOptions[key] = options[key];
-    });
-
-    console.log("Opciones de respuesta original:", options);
-    console.log("Opciones de respuesta aleatorias:", shuffledOptions);
-
-    return shuffledOptions;
-  };
-
-  const shuffleArray = (array) => {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
-    }
-    return array;
-  };
-
-  const handleOptionSelect = (selected) => {
+  const handleOptionSelect = (selected, currentQuestion) => {
     const isCorrect = selected === currentQuestion.opciones.correcta;
     setPoints(isCorrect ? points + 0.5 : points);
 
@@ -107,6 +36,13 @@ const PreguntasCGA = () => {
     }, 1500);
   };
 
+  const getRandomQuestion = () => {
+    // Aquí deberías implementar la lógica para obtener una pregunta aleatoria.
+    // Por ejemplo:
+    // const randomQuestion = getRandomQuestionFromTheme("Deportes");
+    // setCurrentQuestion(randomQuestion);
+  };
+
   useEffect(() => {
     getRandomQuestion();
   }, []);
@@ -121,39 +57,16 @@ const PreguntasCGA = () => {
 
   return (
     <div className={s.ContenedorGeneral}>
-      <div className={s.ContenedorBtns}>
-        <a href="/Quiz">Volver a atrás</a>
-        <a href="/">Volver al Home</a>
-      </div>
-      <Points points={points} />
-      <ProgressBar progress={progress} />
       <div>
-        <h3>{currentQuestion?.pregunta}</h3>
-        <ul>
-          {currentQuestion &&
-            Object.keys(currentQuestion.opciones).map((opcionKey) => {
-              if (opcionKey !== "correcta") {
-                return (
-                  <div className={s.ContenedorRespuestas} key={opcionKey}>
-                    <h2
-                      className={`${s.BtnRespuesta} ${buttonColors[opcionKey]}`}
-                      onClick={
-                        !disableButtons
-                          ? () => handleOptionSelect(opcionKey)
-                          : null
-                      }
-                    >
-                      {currentQuestion.opciones[opcionKey]}
-                    </h2>
-                  </div>
-                );
-              }
-              return null;
-            })}
-        </ul>
+        <PreguntasPage
+          tema="Cultura General Argentina"
+          handleOptionSelect={handleOptionSelect}
+          buttonColors={buttonColors}
+          disableButtons={disableButtons}
+        />
       </div>
     </div>
   );
 };
 
-export default PreguntasCGA;
+export default PreguntasDeportes;
