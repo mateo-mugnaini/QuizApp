@@ -29,8 +29,8 @@
 
 ## Enlaces Útiles
 
-- **Deploy:** [Link del Deploy](#)
-- **Repositorio de GitHub:** [Link del Repositorio](#)
+- **Deploy:** [https://quizappbymateomugnaini.vercel.app/](#)
+- **Repositorio de GitHub:** [https://github.com/mateo-mugnaini/QuizApp/](#)
 
 ## Autor
 
@@ -40,9 +40,11 @@
 
 - Te agradecemos si compartes y comentas tu opinión sobre **QuizApp**. Cualquier crítica constructiva o sugerencia será bienvenida para futuras mejoras.
 
+Hazme saber de tus comentarios en mi MD de [LinkedIn](https://www.linkedin.com/in/mateo-mugnaini/) o [Instagram](https://www.instagram.com/mateo.mugnaini/)
+
 ## Agradecimientos
 
-- ¡Esperamos que disfrutes jugando **QuizApp** tanto como **Mateo** disfrutó desarrollándolo! 🚀
+- ¡Esperamos que disfrutes jugando **QuizApp** tanto como disfruté desarrollándolo! 🚀
 
 ## Hashtags
 
