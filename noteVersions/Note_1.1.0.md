@@ -1,6 +1,6 @@
 # Notas de Versión: QuizApp v1.1.0
 
-**Fecha:** 31 de Marzo del 2024
+**Fecha:** 1 de Abril del 2024
 
 ## 🆕 Novedades
 
