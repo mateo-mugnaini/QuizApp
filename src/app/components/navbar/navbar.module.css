@@ -1,9 +1,10 @@
 .ContenedorGeneral {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
+  z-index: 1;
   height: 10vh;
   background-color: rgba(37, 37, 37, 0.525);
 }
@@ -17,10 +18,46 @@
 }
 
 .BtnOut:hover {
+  cursor: pointer;
   background-color: rgba(255, 0, 0, 0.53);
 }
 
-.Btn:hover {
+.Btn:hover,
+.ImgResto:hover,
+.ImgThemes:hover {
   background-color: rgba(37, 37, 37, 0.694);
   cursor: pointer;
+}
+
+.NavbarLanding {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  z-index: 1;
+}
+
+.ImgResto,
+.ImgThemes {
+  display: flex;
+  align-items: center;
+  background-color: red;
+  padding: 0.5rem;
+  border-radius: 50px;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.ImgThemes {
+  width: 40px;
+  height: 40px;
+}
+
+.ImgResto {
+  width: 40px;
+  height: 40px;
 }

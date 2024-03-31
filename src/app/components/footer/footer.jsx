@@ -1,23 +1,28 @@
+"use client";
 import React from "react";
 import s from "./footer.module.css";
-import Image from "next/image";
 
-import logo from "../../../../public/Logo.png";
+import { usePathname } from "next/navigation";
 
 const Footer = () => {
-  return (
-    <div className={s.ContenedorGeneral}>
-      <Image
-        className={s.Logo}
-        src={logo}
-        alt=""
-        width={100 * 1.5}
-        height={100 * 1.5}
-      />
-      <h2 className={s.yo}>Created by Mateo Mugnaini</h2>
-      <h4>V. 1.0.1</h4>
-    </div>
-  );
+  const pathName = usePathname();
+
+  if (pathName === "/Quiz" || pathName === "/Leaderboard") {
+    return (
+      <div className={s.ContenedorGeneral}>
+        <h3 className={s.yo2}>Created by Mateo Mugnaini</h3>
+        <h4>v. 1.1.0</h4>
+      </div>
+    );
+  }
+  if (pathName === "/") {
+    return (
+      <div className={s.ContenedorGeneral}>
+        <h4>v. 1.1.0</h4>
+        <a className={s.yo}>Created by Mateo Mugnaini</a>
+      </div>
+    );
+  }
 };
 
 export default Footer;
